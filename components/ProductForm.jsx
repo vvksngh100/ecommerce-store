@@ -23,16 +23,9 @@ export default function ProductForm({ onClose }) {
   });
 
   const onSubmit = async (data) => {
-    // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    // In a real app, you would send this to your backend
     console.log('Form submitted:', data);
-    
-    // Invalidate the products query to refetch data
     queryClient.invalidateQueries(['products']);
-    
-    // Reset form and close
     reset();
     onClose();
   };
