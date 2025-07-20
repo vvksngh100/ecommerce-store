@@ -38,7 +38,6 @@ ecommerce-store/
 
 ## 🛠 Setup & Installation
 
-### Clone the Repository
 ```bash
 git clone https://github.com/vvksngh100/ecommerce-store.git
 cd ecommerce-store
